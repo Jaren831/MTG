@@ -3,7 +3,6 @@
     android:layout_width="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity"
-    android:padding="16dp"
     android:id="@+id/fragment_container"
     xmlns:android="http://schemas.android.com/apk/res/android">
 

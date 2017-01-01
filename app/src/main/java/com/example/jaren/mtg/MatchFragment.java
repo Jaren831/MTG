@@ -12,12 +12,12 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link DefaultFragment.OnFragmentInteractionListener} interface
+ * {@link MatchFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link DefaultFragment#newInstance} factory method to
+ * Use the {@link MatchFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class DefaultFragment extends Fragment {
+public class MatchFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -29,7 +29,7 @@ public class DefaultFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public DefaultFragment() {
+    public MatchFragment() {
         // Required empty public constructor
     }
 
@@ -39,11 +39,11 @@ public class DefaultFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment DefaultFragment.
+     * @return A new instance of fragment MatchFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static DefaultFragment newInstance(String param1, String param2) {
-        DefaultFragment fragment = new DefaultFragment();
+    public static MatchFragment newInstance(String param1, String param2) {
+        MatchFragment fragment = new MatchFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -64,7 +64,7 @@ public class DefaultFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_default, container, false);
+        return inflater.inflate(R.layout.fragment_match, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event
